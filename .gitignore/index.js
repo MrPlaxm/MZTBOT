@@ -16,7 +16,7 @@ bot.on('ready', function() {
     console.log("ready");
 });
 
-bot.login("NTEyMDA4OTgwMzExMTc5Mjg1.Dtndcw.laX_pgFnHSJI1NIvl-OAxQzIbmo");
+bot.login(process.env.TOKEN);
 
 bot.on('message', message => {
     if (message.content === prefix + 'play') {
