@@ -24,7 +24,7 @@ bot.on('message', message => {
     if (message.member.voiceChannel) {
         message.member.voiceChannel.join()
     .then(connection => {
-      const dispatcher = connection.playFile('C:\pas sup\Countdown.mp3');
+      const dispatcher = connection.playFile('.gitignore\Countdown.mp3');
     })
     .catch(console.error);
 
